@@ -78,9 +78,9 @@ Reference :
 
 Amazon Virtual Private Cloud (Amazon VPC) 
 
-Amazon Virtual Private Cloud (Amazon VPC) lets you provision a logically isolated section of the AWS Cloud where you can launch AWS resources in a virtual network that you defin
+Amazon Virtual Private Cloud (Amazon VPC) lets you provision a logically isolated section of the AWS Cloud where you can launch AWS resources in a virtual network that you define.
 
-IDEA - A box where all your application live inside and nothing comes in the box and go out of box without your explicite permission. 
+IDEA - A box where all your application live inside and nothing comes in the box and go out of box without your explicit permission. 
 
 Important -
 creating a VPC, items must you include - Region and IP range 
