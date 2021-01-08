@@ -24,4 +24,4 @@ output:
 ```
 
 Reference: 
-[https://www.geeksforgeeks.org/difference-between-list-and-array-in-python/]
+https://www.geeksforgeeks.org/difference-between-list-and-array-in-python/
