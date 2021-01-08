@@ -79,9 +79,9 @@ Database and base view name : e_abc_area_db , stg_abc_area_db , core_xyz_area_ba
 Use in script : E_abc_Area_db.table1 ,  e_abc_area_db.table2 etc 
 
 
-- Approch 1 : Manually open each file and list down details. 
-- Approch 2 : Build unix shell script to gather this information
-- Approch 3 : Build python code to gather this information
+- Approach 1 : Manually open each file and list down details. 
+- Approach 2 : Write unix shell script to gather this information
+- Approach 3 : Write python script to gather this information
 
 
 ## Python sample code to gather information using generator
