@@ -18,7 +18,7 @@ def countdown(num):
 type(countdown(10)) ==> generator
 ```
 
-## Calling next element using next()
+## Generate next element using next()
 ```
 next_obj = countdown(10)
 print(next(next_obj))
@@ -47,7 +47,7 @@ Start Countdown
 1
 ```
 
-## Calling next element using loop 
+## Generate next element using loop 
 ```
 loop_obj = countdown(10)
 for i in loop_obj:
