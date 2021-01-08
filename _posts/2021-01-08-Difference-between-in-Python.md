@@ -1,8 +1,8 @@
 # Difference between in Python
 
 ## List and Array 
+List : Collection of items , heterogeneous data types. Insertion order preserved. Mutable. Duplicates allowed. Indexing possible.
 ```
-List : collection of items , heterogeneous data types . Insertion order preserved . Mutable . Duplicates allowed. Indexing possible.
 - l = [10,20]
 - list(range(0,10,2))
 ```
