@@ -6,15 +6,19 @@
 * PySpark -> ``` df.sample(False, 0.5).count() ```
 
 
+
 ## Task : Delete the duplicate data from table in single query 
 
 1. SQL -> ``` DELETE p from Person p, Person q where p.Id>q.Id AND q.Email=p.Email ```
 2. PySpark ->
 ```
-    * df.dropDuplicates().show()
-    * df.dropDuplicates(['name', 'height']).show()
+    df.dropDuplicates().show()
+    df.dropDuplicates(['name', 'height']).show()
 ```
+
+
 ## Task : Multi-dimensional rollup
+
 Problem : 
 1. SQL -> 
 ```
@@ -37,6 +41,7 @@ select Request_at as Day , round(cancel / total,2) as `Cancellation Rate`
 )sq2
 where Request_at is not null
 ```
+
 2. PySpark -> ``` df.rollup("name", df.age).count().orderBy("name", "age").show() ```
 
 ### Reference :
