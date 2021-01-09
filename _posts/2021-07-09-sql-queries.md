@@ -1,26 +1,29 @@
 # Some interesting SQL queries 
 
-## Task : Get 50% data from table 
+### Task : Get 50% data from table 
 
 * SQL -> ``` SELECT TOP 50 PERCENT * FROM Customers; ```
 * PySpark -> ``` df.sample(False, 0.5).count() ```
 
 
 
-## Task : Delete the duplicate data from table in single query 
+### Task : Delete the duplicate data from table in single query 
 
 1. SQL -> ``` DELETE p from Person p, Person q where p.Id>q.Id AND q.Email=p.Email ```
 2. PySpark ->
+
 ```
     df.dropDuplicates().show()
     df.dropDuplicates(['name', 'height']).show()
 ```
 
 
-## Task : Multi-dimensional rollup
+### Task : Multi-dimensional rollup
 
-Problem : 
+Problem : https://leetcode.com/problems/trips-and-users/
+
 1. SQL -> 
+
 ```
 with
 unbanned as ( select Users_Id  from Users where Banned = 'No' )  
